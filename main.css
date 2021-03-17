@@ -8,7 +8,13 @@ LAYOUT
 
 #dee {
   color: 	#707070; 
-  font-family: 'Arizonia', cursive; 
+  /* font-family: 'Arizonia', cursive;  */
+  font-family: 'Sacramento', cursive;
+  font-size: 50px; 
+}
+
+h2 {
+  color: 	#707070; 
 }
 
 a:hover {
