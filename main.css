@@ -2,12 +2,16 @@
 LAYOUT
 */
 
-body {
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* body {
     background: linear-gradient(#3E5879, #9BA5AE, #DCB697, #FC7001, #DD723C, #AD4A28, #040308); 
     background-attachment: fixed;
     background-size: cover;
     height: auto; 
-}
+} */
 
 #main {
   visibility: visible;

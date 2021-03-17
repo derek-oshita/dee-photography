@@ -4,8 +4,8 @@ const about = document.getElementById('about');
 const dynamicSection = document.getElementById('dynamic-section'); 
 
 // LINK VARIABLES
-const homeLink = document.getElementById('home-link')
-const aboutLink = document.getElementById('about-link')
+const homeLink = document.getElementById('home-link'); 
+const aboutLink = document.getElementById('about-link'); 
 
 // FUNCTIONS
 const navigate = (element) => {
