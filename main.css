@@ -6,12 +6,10 @@ LAYOUT
   font-family: 'Josefin Sans', sans-serif;
 }
 
-/* body {
-    background: linear-gradient(#3E5879, #9BA5AE, #DCB697, #FC7001, #DD723C, #AD4A28, #040308); 
-    background-attachment: fixed;
-    background-size: cover;
-    height: auto; 
-} */
+#dee {
+  color: 	#707070; 
+  font-family: 'Arizonia', cursive; 
+}
 
 a:hover {
   opacity: 0.2; 
@@ -28,6 +26,7 @@ a:hover {
 /*******************************************************************************************************************************************
 ICONS
 */
+
 .fa {
     padding: 20px;
     font-size: 30px;
