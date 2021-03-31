@@ -59,6 +59,7 @@ BUTTON
 }
 
 
+
 /*******************************************************************************************************************************************
 HOME
 */
@@ -80,6 +81,11 @@ h2 {
 
 a:hover {
   opacity: 0.2; 
+}
+
+/* INDEX BUTTON IGNORES OPACITY */
+#index_container a {
+  opacity: 1; 
 }
 
 #main {
@@ -119,4 +125,8 @@ ICONS
   p {
       display: block; 
       color: white; 
+  }
+
+  .ignore-css {
+
   }
