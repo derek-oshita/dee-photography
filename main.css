@@ -68,6 +68,7 @@ HOME
   font-family: 'Sacramento', cursive;
   font-size: 50px; 
   padding-left: 9vw; 
+  padding-top: 2vh; 
 }
 
 h2 {
@@ -109,10 +110,6 @@ SENIORS / FAMILY
 
 .column-right {
   padding-left: 0; 
-}
-
-#stubborn-photo {
-  padding-left: 1vw; 
 }
 
 /*******************************************************************************************************************************************
