@@ -109,6 +109,7 @@ SENIORS / FAMILY
   padding-left: 0; 
 }
 
+
 /*******************************************************************************************************************************************
 ICONS
 */
@@ -153,5 +154,11 @@ FOOTER
 
 .btn-to-top {
   margin-bottom: 7vh; 
+}
+
+@media screen and (min-width: 100px) {
+  .stubborn {
+    padding-left: 22px; 
+  }
 }
 
