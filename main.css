@@ -92,13 +92,10 @@ a:hover {
   visibility: hidden;
 }
 
-.hero-large {
-  max-width: 33vw;
+.hero {
+  padding: 0; 
 }
 
-.chelsea-large {
-  margin-left: 5px; 
-}
 
 /*******************************************************************************************************************************************
 SENIORS / FAMILY 
@@ -147,5 +144,14 @@ ICONS
 FOOTER
 */
 
+.back-to-top-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 20vh; 
+}
 
+.btn-to-top {
+  margin-bottom: 7vh; 
+}
 
