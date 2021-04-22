@@ -196,9 +196,34 @@ FOOTER
   margin-bottom: 7vh; 
 }
 
-/* @media screen and (min-width: 100px) {
-  .stubborn {
-    padding-left: 22px; 
+/*******************************************************************************************************************************************
+MEDIA QUERIES
+*/
+
+/* 414 */
+@media (max-width: 750px) {
+  .about-photo {
+    padding: 0; 
+    width: 100vw; 
   }
-} */
+
+  #dee-hero {
+    border: none;
+    border-radius: 0%;
+  }
+
+  .about-paragraph {
+    width: 100vw;
+    border: none; 
+    border-radius: 0%;
+  }
+
+  .about-section {
+    margin-bottom: 10vh;
+  }
+}
+
+
+
+
 
