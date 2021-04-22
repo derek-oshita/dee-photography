@@ -109,6 +109,46 @@ SENIORS / FAMILY
   padding-left: 0; 
 }
 
+/*******************************************************************************************************************************************
+ABOUT
+*/
+
+.about-paragraph {
+  border: solid black 2px; 
+  border-radius: 5px;
+  background-color: white; 
+}
+
+#dee-hero {
+  border: solid black 2px; 
+  border-radius: 5px;
+}
+
+.hello-section {
+  text-align: center;
+  border-bottom: solid black 2px;
+  height: 10vh; 
+}
+
+#greeting {
+  padding-top: 4vh; 
+}
+
+.about-top {
+  padding-top: 5vh; 
+}
+
+.about-text {
+  color: black; 
+  padding-top: 3vh; 
+}
+
+.about-btn-section {
+  display: flex; 
+  justify-content: center;
+  padding-top: 4vh; 
+}
+
 
 /*******************************************************************************************************************************************
 ICONS
@@ -156,9 +196,9 @@ FOOTER
   margin-bottom: 7vh; 
 }
 
-@media screen and (min-width: 100px) {
+/* @media screen and (min-width: 100px) {
   .stubborn {
     padding-left: 22px; 
   }
-}
+} */
 
