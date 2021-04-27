@@ -82,7 +82,7 @@ form {
 }
 
 #input-message {
-  height: 20vh; 
+  height: 18vh; 
 }
 
 .submit-container {
@@ -92,7 +92,7 @@ form {
 }
 
 .submit-btn {
-  margin-top: 4vh; 
+  margin-top: 3vh; 
   width: 8vw; 
 }
 
@@ -257,6 +257,8 @@ MEDIA QUERIES
 
 /* 414 */
 @media (max-width: 750px) {
+
+  /* ABOUT SECTION  */
   .about-photo {
     padding: 0; 
     width: 100vw; 
@@ -279,6 +281,28 @@ MEDIA QUERIES
 
   .navbar-bottom {
     height: 10vh; 
+  }
+
+  /* CONTACT SECTION  */
+  form {
+    width: 100vw; 
+  }
+
+  .contact-section {
+    height: 10vh; 
+  }
+
+  .contact-h2 {
+    font-size: 20px; 
+  }
+
+  .submit-btn {
+    width: 50vw; 
+    margin-top: 7vh; 
+  }
+
+  .submit-container {
+    height: 5vh; 
   }
 }
 
