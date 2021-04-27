@@ -72,7 +72,7 @@
         </nav>
     <!-- FORM -->
         <section class="container form-section">
-            <form action="https://formspree.io/f/mpzkqwqo" method="POST" novalidate>
+            <form action="https://formspree.io/f/mpzkqwqo" method="POST">
             <!-- HEADER -->
                 <section class="container contact-section">
                     <h1 class="contact-h1">Contact</h1>
@@ -81,22 +81,22 @@
             <!-- NAME -->
                 <div class="mb-3">
                     <label for="input-name" class="form-label">Name</label>
-                    <input name="Contact Name" type="text" class="form-control" id="input-name">
+                    <input name="Contact Name" type="text" class="form-control" id="input-name" required>
                 </div>
             <!-- EMAIL ADDRESS -->
                 <div class="mb-3">
                     <label for="input-email" class="form-label">Email Address</label>
-                    <input name="Email Address" type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
+                    <input name="Email Address" type="email" class="form-control" id="input-email" aria-describedby="emailHelp" required>
                 </div>
             <!-- SUBJECT LINE -->
                 <div class="mb-3">
                     <label for="input-subject" class="form-label">Subject Line</label>
-                    <input name="_subject" type="text" class="form-control" id="input-subject">
+                    <input name="_subject" type="text" class="form-control" id="input-subject" required>
                 </div>
             <!-- MESSAGE -->
                 <div class="mb-3">
                     <label for="input-message" class="form-label">Message</label>
-                    <textarea name="Message" placeholder="Ask about custom pricing..." class="form-control" id="input-message"></textarea>
+                    <textarea name="Message" placeholder="Ask about custom pricing..." class="form-control" id="input-message" required></textarea>
                 </div>
             <!-- BUTTON SECTION -->
                 <div class="container submit-container">
