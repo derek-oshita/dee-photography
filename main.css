@@ -96,6 +96,15 @@ a:hover {
   padding: 0; 
 }
 
+.hero-img {
+  border: solid black 2px; 
+  border-radius: 5px;
+}
+
+.hero-row {
+  padding-bottom: 6vh; 
+}
+
 
 /*******************************************************************************************************************************************
 SENIORS / FAMILY 
