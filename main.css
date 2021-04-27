@@ -155,9 +155,10 @@ ICONS
 */
 
 .fa {
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 10px; 
     font-size: 30px;
-    width: 50px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -220,6 +221,10 @@ MEDIA QUERIES
 
   .about-section {
     margin-bottom: 10vh;
+  }
+
+  .navbar {
+    height: 10vh; 
   }
 }
 
