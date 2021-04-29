@@ -70,40 +70,52 @@
                 </ul>
             </div>
         </nav>
-    <!-- FORM -->
-        <section class="container form-section">
-            <form action="https://formspree.io/f/mpzkqwqo" method="POST">
-            <!-- HEADER -->
-                <section class="container contact-section">
-                    <h1 class="contact-h1">Contact</h1>
-                    <h2 class="animate__animated animate__fadeInUp contact-h2">Discounts for Friends & Family</h2> 
-                </section>
-            <!-- NAME -->
-                <div class="mb-3">
-                    <label for="input-name" class="form-label">Name</label>
-                    <input name="Contact Name" type="text" class="form-control" id="input-name" required>
+    <!-- PHOTO -->
+        <section class="container contact-container">
+            <div class="row">
+            <!-- IMAGE -->
+                <div class="col-6 contact-photo">
+                    <img src="./static/candid.jpeg" alt="golden-gate-bridge" class="img-fluid contact-img animate__animated animate__fadeIn">
                 </div>
-            <!-- EMAIL ADDRESS -->
-                <div class="mb-3">
-                    <label for="input-email" class="form-label">Email Address</label>
-                    <input name="Email Address" type="email" class="form-control" id="input-email" aria-describedby="emailHelp" required>
+            <!-- BREAKPOINT -->
+                <div class="w-100 d-block d-sm-block d-md-none"></div>
+            <!-- FORM -->
+                <div class="col-6 form-container">
+                    <form action="https://formspree.io/f/mpzkqwqo" method="POST">
+                        <!-- HEADER -->
+                            <section class="container contact-section">
+                                <h1 class="contact-h1 animate__fadeInUp animate__animated animate__delay-1s">Contact</h1>
+                            </section>
+                        <!-- NAME -->
+                            <div class="mb-3">
+                                <label for="input-name" class="form-label">Name</label>
+                                <input name="Contact Name" type="text" class="form-control" id="input-name" required>
+                            </div>
+                        <!-- EMAIL ADDRESS -->
+                            <div class="mb-3">
+                                <label for="input-email" class="form-label">Email Address</label>
+                                <input name="Email Address" type="email" class="form-control" id="input-email" aria-describedby="emailHelp" required>
+                            </div>
+                        <!-- SUBJECT LINE -->
+                            <div class="mb-3">
+                                <label for="input-subject" class="form-label">Subject Line</label>
+                                <input name="_subject" type="text" class="form-control" id="input-subject" required>
+                            </div>
+                        <!-- MESSAGE -->
+                            <div class="mb-3">
+                                <label for="input-message" class="form-label">Message</label>
+                                <textarea name="Message" placeholder="Ask about custom pricing..." class="form-control" id="input-message" required></textarea>
+                            </div>
+                        <!-- BUTTON SECTION -->
+                            <div class="container submit-container">
+                                <button type="submit" class="btn btn-outline-dark btn-to-top submit-btn">SUBMIT</button>
+                            </div>
+                    </form>
                 </div>
-            <!-- SUBJECT LINE -->
-                <div class="mb-3">
-                    <label for="input-subject" class="form-label">Subject Line</label>
-                    <input name="_subject" type="text" class="form-control" id="input-subject" required>
-                </div>
-            <!-- MESSAGE -->
-                <div class="mb-3">
-                    <label for="input-message" class="form-label">Message</label>
-                    <textarea name="Message" placeholder="Ask about custom pricing..." class="form-control" id="input-message" required></textarea>
-                </div>
-            <!-- BUTTON SECTION -->
-                <div class="container submit-container">
-                    <button type="submit" class="btn btn-outline-dark btn-to-top submit-btn">SUBMIT</button>
-                </div>
-            </form>
+            </div>    
         </section>
+
+
     <!-- FOOTER -->
         <footer>
             <div class="navbar justify-content-center fixed-bottom navbar-light bg-light">
