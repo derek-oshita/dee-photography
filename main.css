@@ -85,7 +85,7 @@ form {
 }
 
 #input-message {
-  height: 12vh; 
+  height: 13.5vh; 
 }
 
 .submit-container {
@@ -95,7 +95,7 @@ form {
 }
 
 .submit-btn {
-  margin-top: 1vh; 
+  margin-top: 2vh; 
   width: 8vw; 
 }
 
