@@ -77,6 +77,9 @@ CONTACT
   border-radius: 5px; 
 
 }
+
+
+
 form {
   border: 2px solid black; 
   background-color: white; 
@@ -298,6 +301,7 @@ MEDIA QUERIES
 
   .form-container {
     width: 100vw; 
+    padding: 0; 
   }
 
   form {
