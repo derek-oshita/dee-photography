@@ -1,151 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- TITLE  -->
-        <title>Freelance Photography || Las Vegas</title>
+    <title>Freelance Photography || Las Vegas</title>
     <!-- CSS BOOTSTRAP -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
     <!-- CSS CUSTOM -->
-        <link href="main.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" />
     <!-- GOOGLE FONT CDN -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
     <!-- ICON CDN -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- ANIMATE CDN -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- JS BOOTSTRAP -->
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
     <!-- JS CUSTOM  -->
-        <script defer src="main.js"></script>
-</head>
-<body class="bg-light">
-    <!-- code from https://codepen.io/JacobLett/pen/mXxKpE?editors=1010 -->
-    <!-- NAVBAR -->
-        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light"> 
-            <!--  SMALL SCREENS  -->
-                <a class="navbar-brand d-lg-none" href="home.html">
-                    <h2>Dee Van Billiard</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <!--  HOME / CONTACT / ABOUT  -->
-                <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a id="home-link" class="nav-link active text-dark" href="home.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="contact.html">CONTACT ME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="about-link" class="nav-link text-dark" href="about.html">ABOUT</a>
-                        </li>
-                    </ul>
-            <!--  LARGE SCREENS   -->
-                <a class="navbar-brand d-none d-lg-block home-link" href="home.html">
-                    <h1 id="dee">Dee Van Billiard</h1>
-                </a>
-            <!-- SENIORS / FAMILY / PERSONAL -->
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="senior-class.html">SENIOR CLASS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="family.html">FAMILY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="toddlers.html">TODDLERS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="personal.html">PERSONAL</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <script defer src="main.js"></script>
+  </head>
+  <body class="bg-light">
+    <!-- NAV BAR -->
+    <div class="pos-f-t">
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand pl-2" href="/home.html"
+          >Dee Van Billiard Photography</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <!-- COLLAPSIBLE CONTENT -->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-2">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./family.html">Family</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./personal.html">Personal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./senior-class.html">Senior Class</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./toddlers.html">Toddlers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <!-- HERO CONTAINER -->
-        <section id="senior-class-container" class="container">
-            <!-- LANDSCAPE -->
-                <div class="row">
-                    <div class="col-xxl">
-                        <img src="./static_seniors/landscape_3.JPG" alt="" class="img-fluid">
-                        </div>
-                </div>
+    <section id="senior-class-container" class="container">
+      <!-- LANDSCAPE -->
+      <div class="row">
+        <div class="col-xxl">
+          <img
+            src="./static_seniors/landscape_3.JPG"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
 
-            <!-- LEFT NEEDS TO BE FIXED -->
-            <!-- PORTRAIT -->
-                <div class="row">
-                    <div class="col-6 column-left">
-                        <img src="./static_seniors/portrait_5.JPG" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-6 column-right">
-                        <img src="./static_seniors/portrait_6.JPG" alt="" class="img-fluid">
-                    </div>
-                </div>
-            <!-- LANDSCAPE -->
-                <div class="row">
-                    <div class="col-xxl">
-                        <img src="./static_seniors/landscape_5.JPG" alt="" class="img-fluid">
-                      </div>
-                </div>
+      <!-- LEFT NEEDS TO BE FIXED -->
+      <!-- PORTRAIT -->
+      <div class="row">
+        <div class="col-6 column-left">
+          <img src="./static_seniors/portrait_5.JPG" alt="" class="img-fluid" />
+        </div>
+        <div class="col-6 column-right">
+          <img src="./static_seniors/portrait_6.JPG" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <!-- LANDSCAPE -->
+      <div class="row">
+        <div class="col-xxl">
+          <img
+            src="./static_seniors/landscape_5.JPG"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
 
-            <!-- RIGHT NEEDS TO BE CHANGED TO ANOTHER PHOTO -->
-            <!-- PORTRAIT -->
-                <div class="row">
-                    <div class="col-6 column-left">
-                      <img src="./static_seniors/portrait_1.JPG" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-6 column-right">
-                      <img src="./static_seniors/portrait_3.JPG" alt="" class="img-fluid">
-                    </div>
-                </div>
-            <!-- LANDSCAPE -->
-                <div class="row">
-                    <div class="col-xxl">
-                        <img src="./static_seniors/landscape_1.JPG" alt="" class="img-fluid">
-                      </div>
-                </div>
+      <!-- RIGHT NEEDS TO BE CHANGED TO ANOTHER PHOTO -->
+      <!-- PORTRAIT -->
+      <div class="row">
+        <div class="col-6 column-left">
+          <img src="./static_seniors/portrait_1.JPG" alt="" class="img-fluid" />
+        </div>
+        <div class="col-6 column-right">
+          <img src="./static_seniors/portrait_3.JPG" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <!-- LANDSCAPE -->
+      <div class="row">
+        <div class="col-xxl">
+          <img
+            src="./static_seniors/landscape_1.JPG"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
 
-
-            <!-- LEFT NEEDS TO BE FIXED -->
-            <!-- PORTRAIT -->
-                <div class="row">
-                    <div class="col-6 column-left">
-                        <img src="./static_seniors/portrait_2.JPG" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-6 column-right red-senior">
-                        <img src="./static_seniors/portrait_4.JPG" alt="" class="img-fluid">
-                    </div>
-                </div>
-            <!-- LANDSCAPE -->
-                <div class="row" id="top-pic">
-                    <div class="col-xxl">
-                        <img src="./static_seniors/landscape_2.JPG" alt="" class="img-fluid">
-                        </div>
-                </div>
-
-        </section>
+      <!-- LEFT NEEDS TO BE FIXED -->
+      <!-- PORTRAIT -->
+      <div class="row">
+        <div class="col-6 column-left">
+          <img src="./static_seniors/portrait_2.JPG" alt="" class="img-fluid" />
+        </div>
+        <div class="col-6 column-right red-senior">
+          <img src="./static_seniors/portrait_4.JPG" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <!-- LANDSCAPE -->
+      <div class="row" id="top-pic">
+        <div class="col-xxl">
+          <img
+            src="./static_seniors/landscape_2.JPG"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
     <!-- BUTTON SECTION -->
-        <section class="container back-to-top-container">
-            <a href="#top-pic">
-                <button type="button" class="btn btn-outline-dark btn-to-top">
-                    BACK TO TOP
-                </button>
-            </a>
-        </section>
+    <section class="container back-to-top-container">
+      <a href="#top-pic">
+        <button type="button" class="btn btn-outline-dark btn-to-top">
+          BACK TO TOP
+        </button>
+      </a>
+    </section>
     <!-- FOOTER -->
-        <footer>
-            <div class="navbar justify-content-center fixed-bottom navbar-light bg-light">
-                <a href="https://www.facebook.com/photographyofdeevanbilliard" class="fa fa-facebook" target="_blank"></a>
-                <a href="https://www.instagram.com/dcvmom/" class="fa fa-instagram" target="_blank"></a>
-            </div>
-        </footer>
-</body>
+    <footer>
+      <div
+        class="navbar justify-content-center fixed-bottom navbar-light bg-light"
+      >
+        <a
+          href="https://www.facebook.com/photographyofdeevanbilliard"
+          class="fa fa-facebook"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.instagram.com/dcvmom/"
+          class="fa fa-instagram"
+          target="_blank"
+        ></a>
+      </div>
+    </footer>
+  </body>
 </html>
