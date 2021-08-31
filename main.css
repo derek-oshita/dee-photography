@@ -3,15 +3,15 @@ UNIVERSAL LAYOUT
 */
 
 * {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h2 {
-  color: 	#707070; 
+  color: #707070;
 }
 
 a:hover {
-  opacity: 0.2; 
+  opacity: 0.2;
 }
 
 /*******************************************************************************************************************************************
@@ -19,39 +19,39 @@ ABOUT
 */
 
 .about-paragraph {
-  border: solid black 2px; 
+  border: solid black 2px;
   border-radius: 5px;
-  background-color: white; 
+  background-color: white;
 }
 
 #dee-hero {
-  border: solid black 2px; 
+  border: solid black 2px;
   border-radius: 5px;
 }
 
 .hello-section {
   text-align: center;
   border-bottom: solid black 2px;
-  height: 10vh; 
+  height: 10vh;
 }
 
 #greeting {
-  padding-top: 4vh; 
+  padding-top: 4vh;
 }
 
 .about-top {
-  padding-top: 5vh; 
+  padding-top: 5vh;
 }
 
 .about-text {
-  color: black; 
-  padding-top: 3vh; 
+  color: black;
+  padding-top: 3vh;
 }
 
 .about-btn-section {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  padding-top: 10vh; 
+  padding-top: 10vh;
 }
 
 /*******************************************************************************************************************************************
@@ -59,45 +59,44 @@ CONTACT
 */
 
 .contact-container {
-  margin-top: 7vh; 
-  margin-bottom: 10vh; 
+  margin-top: 7vh;
+  margin-bottom: 10vh;
 }
 
 .contact-section {
-  text-align: center; 
-  height: 5vh; 
+  text-align: center;
+  height: 5vh;
 }
 
 .contact {
-  padding-top: 1vh; 
+  padding-top: 1vh;
 }
 
 .contact-img {
-  border: solid black 2px; 
-  border-radius: 5px; 
-
+  border: solid black 2px;
+  border-radius: 5px;
 }
 
 form {
-  border: 2px solid black; 
-  background-color: white; 
-  border-radius: 5px; 
-  padding: 20px 20px 0 20px; 
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 20px 0 20px;
 }
 
 #input-message {
-  height: 13.5vh; 
+  height: 13.5vh;
 }
 
 .submit-container {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .submit-btn {
-  margin-top: 2vh; 
-  width: 8vw; 
+  margin-top: 2vh;
+  width: 8vw;
 }
 
 /*******************************************************************************************************************************************
@@ -105,14 +104,14 @@ FOOTER
 */
 
 .back-to-top-container {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh; 
+  height: 20vh;
 }
 
 .btn-to-top {
-  margin-bottom: 7vh; 
+  margin-bottom: 7vh;
 }
 
 /*******************************************************************************************************************************************
@@ -120,17 +119,17 @@ HOME
 */
 
 #dee {
-  color: 	#707070; 
+  color: #707070;
   /* font-family: 'Arizonia', cursive;  */
-  font-family: 'Sacramento', cursive;
-  font-size: 50px; 
-  padding-left: 9vw; 
-  padding-top: 2vh; 
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  padding-left: 9vw;
+  padding-top: 2vh;
 }
 
 /* INDEX BUTTON IGNORES OPACITY */
 #index_container a {
-  opacity: 1; 
+  opacity: 1;
 }
 
 #main {
@@ -142,11 +141,11 @@ HOME
 }
 
 .hero {
-  padding: 0; 
+  padding: 0;
 }
 
 .hero-row {
-  padding-bottom: 6vh; 
+  padding-bottom: 6vh;
 }
 
 /*******************************************************************************************************************************************
@@ -155,30 +154,51 @@ ICONS
 
 .fa {
   /* padding: 20px; */
-  padding: 10px; 
+  padding: 10px;
   font-size: 30px;
   width: 40px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin: 2px; 
+  margin: 2px;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-instagram {
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
   color: white;
 }
 
 p {
-    display: block; 
-    color: white; 
+  display: block;
+  color: white;
 }
 
 /*******************************************************************************************************************************************
@@ -186,15 +206,15 @@ INDEX
 */
 
 #index_container {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:  center;
-  height: 100vh; 
+  justify-content: center;
+  height: 100vh;
 }
 
 #index_logo_large {
-  max-height: 20vh; 
+  max-height: 20vh;
 }
 
 /* 
@@ -202,25 +222,25 @@ BUTTON
 */
 
 #index_btn {
-  display: inline-block; 
-  border-radius: 8px; 
-  text-align: center; 
-  height: 45px; 
-  width: 200px; 
-  background: transparent; 
-  border: 2px solid black; 
-  transition: all 0.5s; 
-  padding: 10px; 
+  display: inline-block;
+  border-radius: 8px;
+  text-align: center;
+  height: 45px;
+  width: 200px;
+  background: transparent;
+  border: 2px solid black;
+  transition: all 0.5s;
+  padding: 10px;
 }
 
 #index_btn span {
-  display: inline-block; 
-  position: relative; 
-  transition: 0.5s; 
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
 #index_btn span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -238,17 +258,24 @@ BUTTON
 }
 
 /*******************************************************************************************************************************************
+NAVBAR
+*/
+
+nav {
+  height: 5rem;
+}
+
+/*******************************************************************************************************************************************
 SENIORS / FAMILY 
 */
 
 .column-left {
-  padding-right: 0; 
+  padding-right: 0;
 }
 
 .column-right {
-  padding-left: 0; 
+  padding-left: 0;
 }
-
 
 /*******************************************************************************************************************************************
 MEDIA QUERIES
@@ -256,11 +283,10 @@ MEDIA QUERIES
 
 /* MOBILE PHONES */
 @media (max-width: 750px) {
-
   /* ABOUT SECTION  */
   .about-photo {
-    padding: 0; 
-    width: 100vw; 
+    padding: 0;
+    width: 100vw;
   }
 
   #dee-hero {
@@ -270,7 +296,7 @@ MEDIA QUERIES
 
   .about-paragraph {
     width: 100vw;
-    border: none; 
+    border: none;
     border-radius: 0%;
   }
 
@@ -279,53 +305,48 @@ MEDIA QUERIES
   }
 
   .navbar-bottom {
-    height: 10vh; 
+    height: 10vh;
   }
 
   /* CONTACT SECTION  */
   .contact-container {
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   .contact-photo {
-    padding: 0; 
-    width: 100vw; 
+    padding: 0;
+    width: 100vw;
   }
 
   .contact-img {
-    border: none; 
+    border: none;
     border-radius: 0%;
   }
 
   .form-container {
-    width: 100vw; 
-    padding: 0; 
+    width: 100vw;
+    padding: 0;
   }
 
   form {
-    width: 100vw; 
-    border: none; 
+    width: 100vw;
+    border: none;
   }
 
   .contact-section {
-    height: 5vh; 
+    height: 5vh;
   }
 
   .contact-h2 {
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .submit-btn {
-    width: 50vw; 
-    margin-top: 7vh; 
+    width: 50vw;
+    margin-top: 7vh;
   }
 
   .submit-container {
-    height: 5vh; 
+    height: 5vh;
   }
 }
-
-
-
-
-
