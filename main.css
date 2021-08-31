@@ -265,6 +265,18 @@ nav {
   height: 5rem;
 }
 
+.navbar-button {
+  color: #ff69b4;
+}
+
+.nav-link {
+  color: #ff69b4;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
 /*******************************************************************************************************************************************
 SENIORS / FAMILY 
 */
@@ -348,5 +360,10 @@ MEDIA QUERIES
 
   .submit-container {
     height: 5vh;
+  }
+  /* HOME */
+  #home {
+    background-image: url("./static_personal/portrait_12.JPG");
+    height: 100vh;
   }
 }
