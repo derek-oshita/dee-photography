@@ -164,36 +164,11 @@ ICONS
 }
 
 .fa-facebook {
-  background: #3b5998;
-  color: white;
+  color: black;
 }
 
 .fa-instagram {
-  background: -moz-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  color: white;
+  color: black;
 }
 
 p {
@@ -261,8 +236,15 @@ BUTTON
 NAVBAR
 */
 
-nav {
-  height: 5rem;
+.iconContainer {
+  padding-left: 1em;
+}
+
+.camera {
+  width: 25px;
+  height: 25px;
+  background-size: 938px 318px;
+  background-position: -624px -48px;
 }
 
 .navbar-button {
@@ -275,11 +257,13 @@ nav {
 
 .navbar-brand {
   padding-left: 1em;
+  padding-top: 0.5em;
 }
 
 .nav-item {
-  text-align: right;
+  /* text-align: right; */
   padding-right: 1em;
+  padding-top: 0.5em;
 }
 
 /*******************************************************************************************************************************************
@@ -365,10 +349,5 @@ MEDIA QUERIES
 
   .submit-container {
     height: 5vh;
-  }
-  /* HOME */
-  #home {
-    background-image: url("./static_personal/portrait_12.JPG");
-    height: 100vh;
   }
 }
