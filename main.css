@@ -273,8 +273,13 @@ nav {
   color: #ff69b4;
 }
 
-.nav-link:hover {
-  color: white;
+.navbar-brand {
+  padding-left: 1em;
+}
+
+.nav-item {
+  text-align: right;
+  padding-right: 1em;
 }
 
 /*******************************************************************************************************************************************
