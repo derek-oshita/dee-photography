@@ -256,12 +256,11 @@ NAVBAR
 }
 
 .navbar-brand {
-  padding-left: 1em;
+  padding-left: 0.4em;
   padding-top: 0.5em;
 }
 
 .nav-item {
-  /* text-align: right; */
   padding-right: 1em;
   padding-top: 0.5em;
 }
