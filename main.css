@@ -14,6 +14,10 @@ a:hover {
   opacity: 0.2;
 }
 
+.fa:visited {
+  color: black;
+}
+
 /*******************************************************************************************************************************************
 ABOUT
 */
@@ -236,8 +240,8 @@ BUTTON
 NAVBAR
 */
 
-.iconContainer {
-  padding-left: 1em;
+.camera-container {
+  padding-left: 5em;
 }
 
 .camera {
@@ -348,5 +352,25 @@ MEDIA QUERIES
 
   .submit-container {
     height: 5vh;
+  }
+
+  /* NAVBAR */
+  .nav-ul {
+    margin-left: 2em;
+  }
+
+  .social-icons {
+    margin: 0;
+    padding: 0;
+  }
+
+  .fa-facebook {
+    margin-left: 0;
+    padding-left: 0;
+    width: 15px;
+  }
+
+  .fa-instagram {
+    padding-left: 2em;
   }
 }
