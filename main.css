@@ -145,6 +145,7 @@ HOME
 
 .hero {
   background-repeat: no-repeat;
+  padding: 0;
 }
 
 /* INDEX BUTTON IGNORES OPACITY */
@@ -159,10 +160,6 @@ HOME
 #about {
   visibility: hidden;
 }
-
-/* .hero {
-  padding: 0;
-} */
 
 .hero-row {
   height: 98vh;
@@ -317,6 +314,11 @@ MEDIA QUERIES
   #dee-hero {
     border: none;
     border-radius: 0%;
+  }
+
+  #chelsea,
+  #daniel {
+    display: none;
   }
 
   .about-paragraph {
