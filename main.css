@@ -124,11 +124,27 @@ HOME
 
 #dee {
   color: #707070;
-  /* font-family: 'Arizonia', cursive;  */
-  font-family: "Sacramento", cursive;
+  /* font-family: "Arizonia", cursive; */
+  /* font-family: "Sacramento", cursive; */
   font-size: 50px;
   padding-left: 9vw;
   padding-top: 2vh;
+}
+
+#daniel {
+  background-image: url("./static/daniel_large.jpg");
+}
+
+#stanley {
+  background-image: url("./static/stanley_large.jpg");
+}
+
+#chelsea {
+  background-image: url("./static/chelsea_large.jpg");
+}
+
+.hero {
+  background-repeat: no-repeat;
 }
 
 /* INDEX BUTTON IGNORES OPACITY */
@@ -144,12 +160,17 @@ HOME
   visibility: hidden;
 }
 
-.hero {
+/* .hero {
   padding: 0;
-}
+} */
 
 .hero-row {
-  padding-bottom: 6vh;
+  height: 98vh;
+  width: 100vw;
+}
+
+.hero-container {
+  margin: 0;
 }
 
 /*******************************************************************************************************************************************
