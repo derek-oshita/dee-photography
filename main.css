@@ -313,6 +313,10 @@ MEDIA QUERIES
 /* MOBILE PHONES */
 @media (max-width: 750px) {
   /* HOME SECTION  */
+  .camera-container {
+    padding-left: 1rem;
+  }
+
   .about-photo {
     padding: 0;
     width: 100vw;
@@ -403,4 +407,8 @@ MEDIA QUERIES
   .fa-instagram {
     padding-left: 2em;
   }
+}
+
+a {
+  color: none;
 }
