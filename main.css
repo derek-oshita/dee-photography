@@ -121,7 +121,6 @@ FOOTER
 /*******************************************************************************************************************************************
 HOME
 */
-
 #dee {
   color: #707070;
   /* font-family: "Arizonia", cursive; */
@@ -137,6 +136,9 @@ HOME
 
 #stanley {
   background-image: url("./static/stanley_large.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #chelsea {
@@ -168,6 +170,11 @@ HOME
 
 .hero-container {
   margin: 0;
+}
+
+.logo-container {
+  border: 2px solid white;
+  width: 90vw;
 }
 
 /*******************************************************************************************************************************************
@@ -305,7 +312,7 @@ MEDIA QUERIES
 
 /* MOBILE PHONES */
 @media (max-width: 750px) {
-  /* ABOUT SECTION  */
+  /* HOME SECTION  */
   .about-photo {
     padding: 0;
     width: 100vw;
