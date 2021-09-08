@@ -23,18 +23,13 @@ ABOUT
 */
 
 .about-section {
-  margin: 0;
+  display: flex;
+  padding: 0em 0.5em;
 }
 
 .about-paragraph {
-  border: solid black 2px;
-  border-radius: 5px;
+  margin: 0;
   background-color: white;
-}
-
-#dee-hero {
-  border: solid black 2px;
-  border-radius: 5px;
 }
 
 .hello-section {
@@ -60,6 +55,16 @@ ABOUT
   display: flex;
   justify-content: center;
   padding-top: 10vh;
+}
+
+.about-container {
+  margin: 0;
+}
+
+.about-photo,
+.about-container {
+  padding: 0;
+  margin: 0;
 }
 
 /*******************************************************************************************************************************************
@@ -325,6 +330,10 @@ MEDIA QUERIES
     padding-left: 1rem;
   }
 
+  .about-row {
+    margin: 0;
+  }
+
   .about-photo {
     padding: 0;
     width: 100vw;
@@ -347,7 +356,8 @@ MEDIA QUERIES
   }
 
   .about-section {
-    margin-bottom: 10vh;
+    padding: 0;
+    display: block;
   }
 
   .navbar-bottom {
