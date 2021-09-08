@@ -22,32 +22,23 @@ a:hover {
 ABOUT
 */
 
-.about-section {
-  display: flex;
-  padding: 0em 0.5em;
-}
-
 .about-paragraph {
   margin: 0;
   background-color: white;
-}
-
-.hello-section {
-  text-align: center;
-  border-bottom: solid black 2px;
-  height: 10vh;
-}
-
-#greeting {
-  padding-top: 4vh;
+  display: block;
+  height: 100vh;
 }
 
 .about-top {
   padding-top: 5vh;
 }
 
+.hero-container {
+  max-height: 100vh;
+}
+
 .about-text {
-  color: black;
+  color: #737373;
   padding-top: 3vh;
 }
 
@@ -65,6 +56,16 @@ ABOUT
 .about-container {
   padding: 0;
   margin: 0;
+}
+
+.greeting {
+  font-size: 5em;
+  color: #ffc0cb;
+}
+
+.hello-section {
+  text-align: left;
+  padding-top: 2em;
 }
 
 /*******************************************************************************************************************************************
