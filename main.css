@@ -22,6 +22,10 @@ a:hover {
 ABOUT
 */
 
+.about-section {
+  margin: 0;
+}
+
 .about-paragraph {
   border: solid black 2px;
   border-radius: 5px;
@@ -121,6 +125,10 @@ FOOTER
 /*******************************************************************************************************************************************
 HOME
 */
+.big-logo {
+  padding: 0.8em;
+}
+
 #dee {
   color: #707070;
   /* font-family: "Arizonia", cursive; */
@@ -407,8 +415,4 @@ MEDIA QUERIES
   .fa-instagram {
     padding-left: 2em;
   }
-}
-
-a {
-  color: none;
 }
