@@ -116,31 +116,30 @@
         </ul>
       </div>
     </nav>
-    <!-- PHOTO -->
-    <section class="container contact-container">
+
+    <!-- START -->
+
+    <section class="contact-section">
       <div class="row">
-        <!-- IMAGE -->
-        <div class="col-6 contact-photo">
+        <div class="contact-photo-container col-6">
           <img
             src="./static/candid.jpeg"
             alt="golden-gate-bridge"
             class="img-fluid contact-img animate__animated animate__fadeIn"
           />
         </div>
-        <!-- BREAKPOINT -->
+
         <div class="w-100 d-block d-sm-block d-md-none"></div>
-        <!-- FORM -->
-        <div class="col-6 form-container">
+
+        <div class="contact-article-container col-6">
           <form action="https://formspree.io/f/mpzkqwqo" method="POST">
-            <!-- HEADER -->
             <section class="container contact-section">
               <h1
-                class="contact-h1 animate__fadeInUp animate__animated animate__delay-1s"
+                class="contact-h1 animate__fadeInUp animate__animated greeting"
               >
-                Contact
+                Contact Me!
               </h1>
             </section>
-            <!-- NAME -->
             <div class="mb-3">
               <label for="input-name" class="form-label">Name</label>
               <input
@@ -151,7 +150,7 @@
                 required
               />
             </div>
-            <!-- EMAIL ADDRESS -->
+
             <div class="mb-3">
               <label for="input-email" class="form-label">Email Address</label>
               <input
@@ -163,7 +162,7 @@
                 required
               />
             </div>
-            <!-- SUBJECT LINE -->
+
             <div class="mb-3">
               <label for="input-subject" class="form-label">Subject Line</label>
               <input
@@ -174,7 +173,7 @@
                 required
               />
             </div>
-            <!-- MESSAGE -->
+
             <div class="mb-3">
               <label for="input-message" class="form-label">Message</label>
               <textarea
@@ -185,11 +184,11 @@
                 required
               ></textarea>
             </div>
-            <!-- BUTTON SECTION -->
+
             <div class="container submit-container">
               <button
                 type="submit"
-                class="btn btn-outline-dark btn-to-top submit-btn"
+                class="btn btn-outline-dark btn-to-top contact-me-btn"
               >
                 SUBMIT
               </button>
@@ -198,6 +197,9 @@
         </div>
       </div>
     </section>
+
+    <!-- END -->
+
     <!-- FOOTER -->
     <nav class="navbar bottom justify-content-center navbar-light bg-light">
       <a class="navbar-brand" href="https://derek-oshita.github.io/"
