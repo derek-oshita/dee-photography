@@ -147,8 +147,6 @@ HOME
 
 #dee {
   color: #707070;
-  /* font-family: "Arizonia", cursive; */
-  /* font-family: "Sacramento", cursive; */
   font-size: 50px;
   padding-left: 9vw;
   padding-top: 2vh;
@@ -319,15 +317,25 @@ NAVBAR
 }
 
 /*******************************************************************************************************************************************
-SENIORS / FAMILY 
+PHOTOS
 */
 
-.column-left {
-  padding-right: 0;
+.row {
+  width: 100vw;
+  margin: 0;
 }
 
-.column-right {
-  padding-left: 0;
+.img-container {
+  width: 30em;
+  height: 30em;
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /*******************************************************************************************************************************************
