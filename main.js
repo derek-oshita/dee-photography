@@ -8,7 +8,8 @@ const form = document.getElementById("input-form"),
   submitBtn = document.getElementById("submit-btn");
 
 const invalidNameDiv = document.getElementById("invalid-name"),
-  invalidEmailDiv = document.getElementById("invalid-email");
+  invalidEmailDiv = document.getElementById("invalid-email"),
+  invalidSubjectDiv = document.getElementById("invalid-subject");
 
 let nameFieldIsValid = false,
   emailFieldIsValid = false,
@@ -56,6 +57,21 @@ emailField.addEventListener("input", () => {
   if (emailVal.length >= 2 && emailVal.includes("@")) {
     invalidEmailDiv.style.display = "none";
     emailFieldIsValid = true;
+  }
+});
+
+// INPUT FIELD
+subjectField.addEventListener("input", () => {
+  let subjectVal = subjectField.value;
+
+  if (subjectVal.length < 2) {
+    invalidSubjectDiv.style.display = "block";
+    invalidSubjectDiv.innerHTML = invalidText;
+  }
+
+  if (subjectVal.length >= 2) {
+    invalidSubjectDiv.style.display = "none";
+    subjectFieldIsValid = true;
   }
 });
 
