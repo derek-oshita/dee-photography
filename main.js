@@ -30,19 +30,26 @@ const disableSubmitOnEmptyFields = () => {
   }
 };
 
+const handleInvalidInput = (value, div) => {
+  if (value.length < 2) {
+    div.style.display = "block";
+    div.innerHTML = invalidText;
+  }
+
+  if (value.length >= 2) {
+    div.style.display = "none";
+    switch (div) {
+      case invalidNameDiv:
+        nameFieldIsValid = true;
+        console.log("nameFieldIsValid", nameFieldIsValid);
+    }
+  }
+};
+
 // NAME FIELD
 nameField.addEventListener("input", () => {
   let nameVal = nameField.value;
-
-  if (nameVal.length < 2) {
-    invalidNameDiv.style.display = "block";
-    invalidNameDiv.innerHTML = invalidText;
-  }
-
-  if (nameVal.length >= 2) {
-    invalidNameDiv.style.display = "none";
-    nameFieldIsValid = true;
-  }
+  handleInvalidInput(nameVal, invalidNameDiv);
 });
 
 // EMAIL FIELD
