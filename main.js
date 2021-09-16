@@ -30,56 +30,28 @@ const disableSubmitOnEmptyFields = () => {
   }
 };
 
-const handleInvalidInput = (value, div) => {
-  if (value.length < 2) {
-    div.style.display = "block";
-    div.innerHTML = invalidText;
-  }
-
-  if (value.length >= 2) {
-    div.style.display = "none";
-    switch (div) {
-      case invalidNameDiv:
-        nameFieldIsValid = true;
-        console.log("nameFieldIsValid", nameFieldIsValid);
-    }
-  }
+const checkInputField = (field, value) => {
+  field === emailField
+    ? console.log("email") // toggleEmailNotification
+    : console.log("other"); // toggleTextNotifcation
 };
 
 // NAME FIELD
 nameField.addEventListener("input", () => {
   let nameVal = nameField.value;
-  handleInvalidInput(nameVal, invalidNameDiv);
+  checkInputField(nameField, nameVal);
 });
 
 // EMAIL FIELD
 emailField.addEventListener("input", () => {
   let emailVal = emailField.value;
-
-  if (emailVal.length < 2) {
-    invalidEmailDiv.style.display = "block";
-    invalidEmailDiv.innerHTML = invalidEmail;
-  }
-
-  if (emailVal.length >= 2 && emailVal.includes("@")) {
-    invalidEmailDiv.style.display = "none";
-    emailFieldIsValid = true;
-  }
+  checkInputField(emailField, emailVal);
 });
 
 // INPUT FIELD
 subjectField.addEventListener("input", () => {
   let subjectVal = subjectField.value;
-
-  if (subjectVal.length < 2) {
-    invalidSubjectDiv.style.display = "block";
-    invalidSubjectDiv.innerHTML = invalidText;
-  }
-
-  if (subjectVal.length >= 2) {
-    invalidSubjectDiv.style.display = "none";
-    subjectFieldIsValid = true;
-  }
+  checkInputField(subjectField, subjectVal);
 });
 
 disableSubmitOnEmptyFields();
