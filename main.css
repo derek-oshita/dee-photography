@@ -330,14 +330,9 @@ NAVBAR
 PHOTOS
 */
 
-.row {
-  width: 100vw;
-  margin: 0;
-}
-
 .img-container {
-  width: 30em;
   height: 30em;
+  width: 30em;
   padding: 0;
   margin: 0;
 }
@@ -346,6 +341,15 @@ PHOTOS
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.photos-container {
+  padding: 0;
+}
+
+.row {
+  width: 100vw;
+  margin: 0;
 }
 
 /*******************************************************************************************************************************************
