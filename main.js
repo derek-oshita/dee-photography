@@ -1,4 +1,4 @@
-// FORM VALIDATION ////////////////////////////////////////
+// FORM VALIDATION ////////////////////////////////////////////////////////////////////////////////////
 
 const form = document.getElementById("input-form"),
   nameField = document.getElementById("input-name"),
@@ -27,6 +27,7 @@ const checkInputField = (field, value) => {
 };
 
 const toggleEmailNotification = (value) => {
+  // TODO: ADD REGEX FOR EMAIL VALIDATION
   if (value.length < 5 || !value.includes("@")) {
     invalidEmailDiv.style.display = "block";
     invalidEmailDiv.innerHTML = invalidEmail;
@@ -91,6 +92,10 @@ const canSubmit = () => {
   }
 };
 
+const disableSubmitBtnOnLoad = () => {
+  submitBtn.disabled = true;
+};
+
 // NAME FIELD
 nameField.addEventListener("input", () => {
   let nameVal = nameField.value;
@@ -119,9 +124,4 @@ messageField.addEventListener("input", () => {
   canSubmit();
 });
 
-submitBtn.addEventListener("click", () => {
-  console.log("clicked");
-});
-
-// need to conditionally enable the submit button when all of the flags are true
-submitBtn.disabled = true;
+disableSubmitBtnOnLoad();

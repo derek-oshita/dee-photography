@@ -18,6 +18,10 @@ a:hover {
   color: black;
 }
 
+:root {
+  --primary-pink: #ffc0cb;
+}
+
 /*******************************************************************************************************************************************
 ABOUT
 */
@@ -33,6 +37,7 @@ ABOUT
 }
 
 .hero-container {
+  padding: 0;
   max-height: 100vh;
 }
 
@@ -45,7 +50,7 @@ ABOUT
 .about-btn-section {
   display: flex;
   justify-content: center;
-  padding-top: 10vh;
+  padding: 3em 0;
 }
 
 .about-container {
@@ -60,7 +65,7 @@ ABOUT
 
 .greeting {
   font-size: 5em;
-  color: #ffc0cb;
+  color: var(--primary-pink);
 }
 
 .hello-section {
@@ -69,7 +74,7 @@ ABOUT
 }
 
 .contact-me-btn {
-  background-color: #ffc0cb;
+  background-color: var(--primary-pink);
 }
 
 .las-vegas {
@@ -116,6 +121,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 8em;
 }
 
 .submit-btn {
@@ -135,7 +141,7 @@ FOOTER
 }
 
 .btn-to-top {
-  margin-bottom: 7vh;
+  background-color: var(--primary-pink);
 }
 
 /*******************************************************************************************************************************************
@@ -202,6 +208,10 @@ HOME
 /*******************************************************************************************************************************************
 ICONS
 */
+
+.btn {
+  width: 10em;
+}
 
 .fa {
   /* padding: 20px; */
@@ -298,10 +308,6 @@ NAVBAR
   background-position: -624px -48px;
 }
 
-.navbar-button {
-  color: #ff69b4;
-}
-
 .nav-link {
   color: #ff69b4;
 }
@@ -314,6 +320,10 @@ NAVBAR
 .nav-item {
   padding-right: 1em;
   padding-top: 0.5em;
+}
+
+.navbar-toggler {
+  background-color: var(--primary-pink);
 }
 
 /*******************************************************************************************************************************************
