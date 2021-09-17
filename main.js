@@ -95,24 +95,28 @@ const canSubmit = () => {
 nameField.addEventListener("input", () => {
   let nameVal = nameField.value;
   checkInputField(nameField, nameVal);
+  canSubmit();
 });
 
 // EMAIL FIELD
 emailField.addEventListener("input", () => {
   let emailVal = emailField.value;
   checkInputField(emailField, emailVal);
+  canSubmit();
 });
 
 // SUBJECT FIELD
 subjectField.addEventListener("input", () => {
   let subjectVal = subjectField.value;
   checkInputField(subjectField, subjectVal);
+  canSubmit();
 });
 
 // MESSAGE FIELD
 messageField.addEventListener("input", () => {
   let messageVal = messageField.value;
   checkInputField(messageField, messageVal);
+  canSubmit();
 });
 
 submitBtn.addEventListener("click", () => {
@@ -120,3 +124,4 @@ submitBtn.addEventListener("click", () => {
 });
 
 // need to conditionally enable the submit button when all of the flags are true
+submitBtn.disabled = true;
