@@ -45,14 +45,17 @@ const toggleTextNotification = (value, field) => {
         invalidNameDiv.style.display = "block";
         invalidNameDiv.innerHTML = invalidText;
         nameFieldIsValid = false;
+        break;
       case subjectField:
         invalidSubjectDiv.style.display = "block";
         invalidSubjectDiv.innerHTML = invalidText;
         subjectFieldIsValid = false;
+        break;
       case messageField:
         invalidMessageDiv.style.display = "block";
         invalidMessageDiv.innerHTML = invalidText;
         messageFieldIsValid = false;
+        break;
     }
   } else {
     switch (field) {
