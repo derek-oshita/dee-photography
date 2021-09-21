@@ -355,11 +355,12 @@ PHOTOS
 #headline {
   z-index: 1;
   position: absolute;
-  margin-top: 9em;
+  margin-top: 2em;
   margin-left: 3.5em;
-  color: white;
+  color: black;
   font-size: 2em;
-  border: 2px solid white;
+  border: 2px solid black;
+  border-radius: 5px;
   padding: 0.6em;
 }
 
@@ -369,7 +370,7 @@ PHOTOS
 }
 
 .banner-container {
-  height: 90vh;
+  height: 95vh;
   width: 100vw;
 }
 
