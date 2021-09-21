@@ -352,6 +352,27 @@ PHOTOS
   margin: 0;
 }
 
+#headline {
+  z-index: 1;
+  position: absolute;
+  margin-top: 9em;
+  margin-left: 3.5em;
+  color: white;
+  font-size: 2em;
+  border: 2px solid white;
+  padding: 0.6em;
+}
+
+#top-pic {
+  z-index: -1;
+  position: relative;
+}
+
+.banner-container {
+  height: 90vh;
+  width: 100vw;
+}
+
 /*******************************************************************************************************************************************
 MEDIA QUERIES
 */
