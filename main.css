@@ -357,11 +357,12 @@ PHOTOS
   position: absolute;
   margin-top: 2em;
   margin-left: 3.5em;
-  color: black;
-  font-size: 2em;
-  border: 2px solid black;
+  color: white;
+  font-size: 3rem;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 0.6em;
+  /* padding: 1em; */
 }
 
 #top-pic {
@@ -373,7 +374,6 @@ PHOTOS
   height: 95vh;
   width: 100vw;
 }
-
 /*******************************************************************************************************************************************
 MEDIA QUERIES
 */
@@ -462,5 +462,12 @@ MEDIA QUERIES
 
   .fa-instagram {
     padding-left: 2em;
+  }
+
+  /* PHOTOS */
+
+  #headline {
+    margin-left: 0;
+    margin-top: 5em;
   }
 }
