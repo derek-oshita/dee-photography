@@ -468,6 +468,19 @@ MEDIA QUERIES
 
   #headline {
     margin-left: 0;
-    margin-top: 5em;
+    /* margin-top: 12.5em; */
+    margin-top: 2em;
+    padding: 1.1em;
+    border: none;
+    border-bottom: white;
+  }
+
+  #small-headline {
+    padding-left: 1.7em;
+    z-index: 1;
+    position: absolute;
+    margin-top: 2em;
+    color: white;
+    font-size: 3rem;
   }
 }
