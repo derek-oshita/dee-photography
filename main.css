@@ -352,7 +352,9 @@ PHOTOS
   margin: 0;
 }
 
-#headline {
+#headline,
+#small-headline,
+#smaller-headline {
   z-index: 1;
   position: absolute;
   margin-top: 2em;
@@ -362,7 +364,8 @@ PHOTOS
   border: 2px solid white;
   border-radius: 5px;
   padding: 0.6em;
-  /* padding: 1em; */
+  animation: fadeInUp;
+  animation-duration: 2s;
 }
 
 #top-pic {
@@ -373,7 +376,10 @@ PHOTOS
 .banner-container {
   height: 95vh;
   width: 100vw;
+  animation: fadeInUp;
+  animation-duration: 1s;
 }
+
 /*******************************************************************************************************************************************
 MEDIA QUERIES
 */
@@ -471,21 +477,29 @@ MEDIA QUERIES
     width: 30em;
   }
 
+  .banner-container {
+    height: 95vh;
+  }
+
   #headline {
     margin-left: 0;
     /* margin-top: 12.5em; */
     margin-top: 2em;
     padding: 1.1em;
     border: none;
-    border-bottom: white;
   }
 
   #small-headline {
+    border: none;
+    margin-left: 0;
     padding-left: 1.7em;
     z-index: 1;
-    position: absolute;
-    margin-top: 2em;
-    color: white;
-    font-size: 3rem;
+  }
+
+  #smaller-headline {
+    border: none;
+    margin-left: 0;
+    padding-left: 2em;
+    z-index: 1;
   }
 }
