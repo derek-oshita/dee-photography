@@ -185,7 +185,8 @@ HOME
   background-image: url("./static/chelsea_large.jpg");
 }
 
-#dee-hero {
+#dee-hero,
+#dee-golden-gate-bridge {
   height: 100%;
   width: 100%;
 }
@@ -215,6 +216,7 @@ HOME
 
 .hero-container {
   margin: 0;
+  height: ;
 }
 
 .logo-container {
