@@ -379,7 +379,7 @@ MEDIA QUERIES
 */
 
 /* MOBILE PHONES */
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   /* HOME SECTION  */
   .camera-container {
     padding-left: 1rem;
