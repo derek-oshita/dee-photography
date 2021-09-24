@@ -10,6 +10,10 @@ h2 {
   color: #707070;
 }
 
+p {
+  color: black;
+}
+
 a:hover {
   opacity: 0.2;
 }
@@ -42,7 +46,7 @@ ABOUT
 }
 
 .about-text {
-  color: #737373;
+  color: black;
   padding-top: 3vh;
   font-size: 1.2em;
 }
@@ -104,6 +108,10 @@ CONTACT
   padding-top: 1vh;
 }
 
+.contact-section {
+  text-align: center;
+}
+
 .contact-article-container {
   background-color: #ffffff;
   padding: 0;
@@ -127,6 +135,10 @@ form {
 .submit-btn {
   margin-top: 2vh;
   width: 8vw;
+}
+
+.invalid {
+  color: var(--primary-pink);
 }
 
 /*******************************************************************************************************************************************
@@ -171,6 +183,11 @@ HOME
 
 #chelsea {
   background-image: url("./static/chelsea_large.jpg");
+}
+
+#dee-hero {
+  height: 100%;
+  width: 100%;
 }
 
 .hero {
