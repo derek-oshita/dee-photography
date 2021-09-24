@@ -332,7 +332,7 @@ PHOTOS
 
 .img-container {
   height: 30em;
-  width: 30em;
+  width: 25vw;
   padding: 0;
   margin: 0;
 }
@@ -465,6 +465,11 @@ MEDIA QUERIES
   }
 
   /* PHOTOS */
+
+  .img-container {
+    height: 30em;
+    width: 30em;
+  }
 
   #headline {
     margin-left: 0;
