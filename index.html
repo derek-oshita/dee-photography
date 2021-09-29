@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- TITLE  -->
     <title>Freelance Photography || Las Vegas</title>
     <!-- CSS BOOTSTRAP -->
     <link
@@ -19,7 +21,6 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
       rel="stylesheet"
     />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
@@ -37,22 +38,169 @@
     />
     <!-- JS BOOTSTRAP -->
     <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
+      defer
     ></script>
     <!-- JS CUSTOM  -->
-    <script defer src="main.js"></script>
   </head>
   <body class="bg-light">
-    <!-- SMALL -->
-    <div class="container" id="index_container">
-      <a href="home.html">
-        <button id="index_btn">
-          <span>WELCOME</span>
-        </button>
+    <!-- INSPIRATION: https://www.lisamicheleburns.com/ -->
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- CAMERA ICON -->
+      <a href="./home.html">
+        <div class="camera-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            class="bi bi-camera camera"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"
+            />
+            <path
+              d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"
+            />
+          </svg>
+        </div>
       </a>
+      <!-- BRAND -->
+      <a class="navbar-brand d-none d-md-block" href="./home.html">
+        Dee Van Billiard Photography
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-ul">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./family.html">Family</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./personal.html">Personal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./senior-class.html">Senior Class</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./toddlers.html">Toddlers</a>
+          </li>
+          <li class="nav-item social-icons">
+            <a
+              href="https://www.facebook.com/photographyofdeevanbilliard"
+              class="fa fa-facebook"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/dcvmom/"
+              class="fa fa-instagram"
+              target="_blank"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HOMEPAGE -->
+    <div class="container hero-container">
+      <div class="row hero-row">
+        <div
+          class="col hero animate__animated animate__fadeInLeft"
+          id="daniel"
+        ></div>
+        <div class="col hero animate__animated animate__fadeInUp" id="stanley">
+          <a href="#dee-hero">
+            <img
+              src="./static/dee_photography_logo.png"
+              alt=""
+              class="img-fluid big-logo animate__animated animate__fadeIn animate__delay-1s"
+            />
+          </a>
+        </div>
+        <div
+          class="col hero animate__animated animate__fadeInRight"
+          id="chelsea"
+        ></div>
+      </div>
     </div>
+
+    <!-- ABOUT -->
+    <section class="about-section">
+      <div class="row about-row">
+        <div class="dee-container col-5 about-photo">
+          <img
+            src="./static/dee_hero.jpeg"
+            alt=""
+            id="dee-hero"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="w-100 d-block d-md-block d-lg-none"></div>
+
+        <div class="col-7 about-paragraph">
+          <div class="container hello-section">
+            <p class="greeting">HI, I'M DEE!</p>
+            <p class="las-vegas">Las Vegas, NV</p>
+            <p class="about-text about-top">
+              I'm a freelance photographer based out of Las Vegas, NV. I
+              specialize in portraits and have a strong affinity for drawing the
+              beauty out of my clients! My work mainly consists of senior class
+              photos, toddlers, and family portraits but I'm always willing to
+              try new things and improve my creative approach.
+            </p>
+            <p class="about-text">
+              Professionally, I have been in property management for 30+ years
+              beginning as a sales associate back in the day! Learning and
+              growing in the business as well as gaining contacts, education and
+              some amazing colleagues. I am currently a senior business manager
+              and a Certified Elevate Coach.
+            </p>
+            <p class="about-text">
+              If you'd like to discuss an opportunity for me to take your
+              photos, be sure to click the button below!
+            </p>
+          </div>
+
+          <section
+            class="container about-btn-section animate__animated animate__fadeIn"
+          >
+            <a href="contact.html">
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-to-top contact-me-btn"
+              >
+                CONTACT ME
+              </button>
+            </a>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <nav class="navbar bottom justify-content-center navbar-light bg-light">
+      <a class="navbar-brand" href="https://derek-oshita.github.io/"
+        >Bootstrap <span>&copy;</span> Derek Oshita</a
+      >
+    </nav>
   </body>
 </html>
