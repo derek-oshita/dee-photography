@@ -373,7 +373,8 @@ PHOTOS
 
 #headline,
 #small-headline,
-#smaller-headline {
+#smaller-headline,
+#smallest-headline {
   z-index: 1;
   position: absolute;
   margin-top: 2em;
@@ -519,6 +520,13 @@ MEDIA QUERIES
     border: none;
     margin-left: 0;
     padding-left: 2em;
+    z-index: 1;
+  }
+
+  #smallest-headline {
+    border: none;
+    margin-left: 0;
+    padding-left: 3em;
     z-index: 1;
   }
 }
